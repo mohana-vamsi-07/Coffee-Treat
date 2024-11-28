@@ -1,0 +1,32 @@
+.topnav {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Space between logo and navigation links */
+  background-color: #102C57; /* Dark navy */
+  padding: 0 10px; /* Add some padding to the container */
+}
+
+.topnav a {
+  color: #FEFAF6; /* Light cream */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #EADBC8; /* Beige */
+  color: #102C57; /* Dark navy */
+}
+
+/* Logo styles */
+.topnav .logo img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex; /* Align links horizontally */
+  gap: 10px; /* Add space between links */
+}

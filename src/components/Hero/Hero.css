@@ -1,0 +1,30 @@
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-color: #FEFAF6; /* Light cream */
+  color: #102C57; /* Dark navy */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #102C57;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #DAC0A3; /* Accent */
+  color: #102C57;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero .btn:hover {
+  background-color: #EADBC8; /* Beige */
+}

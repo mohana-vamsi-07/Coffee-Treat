@@ -1,0 +1,28 @@
+.menu-page {
+    padding: 20px;
+    background-color: #EADBC8; /* Beige */
+    text-align: center;
+  }
+  
+  .menu-page h2 {
+    color: #102C57; /* Dark navy */
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .menu-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #102C57; /* Dark navy */
+  }
+  
